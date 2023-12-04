@@ -23,6 +23,7 @@ jobs:
     - name: Run tests
       run: |
         # Assuming your tests are in the 'tests' directory
+        ls
         pytest tests/
 
     - name: Check for failed tests
